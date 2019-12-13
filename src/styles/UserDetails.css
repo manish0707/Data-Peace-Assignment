@@ -1,0 +1,31 @@
+.user-details {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 50px;
+}
+
+.user-details-name {
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+.user-details-other-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-details-eachrow {
+    box-shadow: 0 0 2px rgba(0, 0, 0, .5);
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-details-eachrow span {
+    font-size: 16px;
+}
+
+.user-details-key {
+    text-transform: capitalize;
+}

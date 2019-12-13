@@ -1,0 +1,26 @@
+.Main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .pagination-wrapper{
+    margin-top: 30px;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 40px;
+  }
+  
+  .pagination-wrapper button {
+    padding: 10px 30px;
+    background-color: #74b9ff;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+  }
+  
+  .pagination-wrapper button:focus {
+    background-color: lightgreen;
+  }
+  
